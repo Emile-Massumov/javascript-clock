@@ -11,10 +11,21 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(43, 43, 43);
+ height: 100vh;
+}
+
+.clock {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  border: 5px solid rgb(252, 255, 55);
 }
 
 /*
