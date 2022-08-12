@@ -48,6 +48,15 @@ body {
   bottom: 149px;
 }
 
+#hours-hand {
+  background-color: rgb(253, 120, 43);
+  position: absolute;
+  height: 80px;
+  width: 4px;
+  left: 148px;
+  bottom: 148px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
