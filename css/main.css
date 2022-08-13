@@ -52,6 +52,7 @@ body {
 
 }
 
+
 #hours-hand {
   background-color: rgb(253, 120, 43);
   position: absolute;
@@ -60,6 +61,17 @@ body {
   left: 148px;
   bottom: 148px;
   transform-origin: 0 100%;
+}
+
+#center {
+  background-color: rgb(55, 8, 240);
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  transform-origin: 0 100%;
+  left: 145px;
+  bottom: 145px;
 }
 
 /*
